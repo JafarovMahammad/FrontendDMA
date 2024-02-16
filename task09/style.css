@@ -1,0 +1,50 @@
+
+main{
+  width: 65%;
+  max-width: 1000px;
+  min-width: 430px;
+  margin: auto;
+  
+
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+table,
+tr,
+td {
+  padding: 10px;
+  border: 1px solid #80ced6;
+  border-collapse: collapse;
+  background-color: rgb(235, 252, 243);
+  box-sizing: border-box;
+
+
+}
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #f0fff8;
+}
+
+p {
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  background-color: rgb(235, 252, 243);
+  border: 1px solid #80ced6;
+  border-radius: 10px;
+}
+
+ul{
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  background-color: rgb(235, 252, 243);
+  border: 1px solid #80ced6;
+  border-radius: 10px;
+}
