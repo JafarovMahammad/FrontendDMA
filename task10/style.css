@@ -1,0 +1,77 @@
+.container{
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-inline: auto;
+    gap: 10px;
+}
+
+.card{
+    background-color: #8e44ad;
+  
+    border-radius: 10px;
+    width: 300px;
+    height: 170px;
+    padding: 15px;
+}
+
+img  {
+
+    width: 40px;
+
+}
+
+.img1{
+
+    width: 100px;
+    height: 35px;
+}
+
+.foot{
+display: flex;
+justify-content: space-between;
+}
+
+p{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.p1{
+    font-size: 9px;
+    margin: 0;
+}
+
+.p2{
+    margin: 0;
+}
+
+.card2{
+    background-color: green;
+   
+    border-radius: 10px;
+    width: 300px;
+    height: 170px;
+    padding: 15px;
+}
+
+.card3{
+    background-color: rgb(63, 63, 233);
+    
+    border-radius: 10px;
+    width: 300px;
+    height: 170px;
+    padding: 15px;
+}
+
+.card4{
+
+    background-color: black;
+    
+    border-radius: 10px;
+    width: 300px;
+    height: 170px;
+    padding: 15px;
+}
