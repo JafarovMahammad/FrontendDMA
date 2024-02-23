@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    
+    height: 450px;
+    background: #F5FBFF;
+    
+}
+
+
+
+.col-sm-4{
+    padding-top: 20px;
+    height: 300px;
+}
+
+img{
+    width: 350px;
+    transition: .6s;
+   
+}
+
+.content{
+    
+    padding-left: 25px;
+    
+    padding-top: 5px;
+    background-color: white;
+    line-height: 1.5;
+    padding-bottom: 15px;
+}
+
+a{
+    font-size: 22px;
+    color: #1F1F1F;
+    line-height: 10px;
+    font-weight: 500;
+    
+    
+}
+
+p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #727272;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.learn{
+    color: #5DB2FF;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.learn:hover{
+    text-decoration: underline;
+}
+
+.first{
+    padding-right: 15px;
+    padding-left: 15px;
+    
+
+}
+
+h3{
+
+    line-height: 1.2em;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    color: #1F1F1F;
+}
+
+a:hover{
+    color: #5DB2FF;
+    text-decoration: none;
+    transition: .4s;
+    
+}
+
+p::selection{
+    background: #444;
+    color: #fff;
+}
+
+a::selection{
+    background: #444;
+    color: #fff;
+    text-shadow: none;
+}
+
+.first:hover .image{
+    transform: scale(1.2);
+    transition: .6s ease;
+    
+}
+
+
+.firstt{
+    overflow: hidden;
+    
+}
+
+.second:hover .image{
+    transform: scale(1.2);
+    transition: .6s ease;
+   
+}
+
+.third:hover .image{
+    transform: scale(1.2);
+    transition: .6s ease;
+   
+}
