@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    height: 100vh;
+    background-image: url(https://www.time4nutrition.co.uk/wp-content/uploads/2023/02/shutterstock_2191383829.jpg);
+    background-repeat: no-repeat;
+   background-size:cover;
+    background-position: center;
+    
+
+}
+
+.navbar {
+    display: flex;
+    width: max-content;
+    height: 100vh;
+  background-color: rgba(8, 8, 107, 0.521);
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.first-ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style-type: none;
+    
+}
+
+
+.main-a {
+    display: flex;
+    width: 130px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(4, 4, 77);
+    border-radius: 10px;
+    text-align: center;
+    transition: 1s;
+    justify-content: center;
+
+
+   
+} 
+
+a:hover {
+    background-color: rgb(21, 230, 219);
+    color: rgb(53, 3, 100);
+    transition: .6s;
+}
+
+.product-menu{
+    position: relative;
+}
+
+ul .list{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: absolute;
+    left: 130px;
+    top:4px;
+    
+    
+    
+}
+
+ul{
+    list-style: none;
+    
+}
+
+.list-a{
+    display: none;
+    
+    
+}
+
+.list-a:hover{
+    background-color: black;
+    color: rgb(189, 137, 7);
+}
+
+.product-menu:hover .list-a {
+    display: flex;
+    width: 220px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(85, 85, 238);
+    color: gold;
+    border-radius: 10px;
+    text-align: center;
+    transition: .8s;
+    justify-content: center;
+    
+}
+
+.product-menu .list-a:hover{
+    background-color: black;
+    color: rgb(189, 137, 7);
+    transition: .8s;
+    -webkit-transition: .8;
+    -moz-transition: .8;
+    -ms-transition: .8;
+    -o-transition: .8;
+}
+
+
+
+
