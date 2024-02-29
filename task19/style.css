@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#hero{
+    width: 100%;
+    height: 100vh;
+    background: url(https://preview.colorlib.com/theme/startup2/img/banner/banner.png.webp);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.content h1{
+    color: #FFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 78px;
+    font-weight: 400;
+    line-height: 84px;
+    margin-bottom: 54px;
+    
+}
+
+#hero::before{
+    content: "";
+    background: #1F1F1F;
+    opacity: .8;
+    position: absolute;
+    inset: 0;
+
+}
+.container{
+    width: 85%;
+    max-width: 1231px;
+    margin: 0 auto;
+}
+
+.pr{
+    
+    position: relative;
+}
+
+.content{
+    text-align: left;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.boxed-btn{
+    background: #615CFD;
+    color: #fff;
+    padding: 12px 33px;
+    font-family: "Muli", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: 0;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.5s;
+    cursor: pointer;
+    align-self: flex-start;
+
+}
+
+@media (min-width: 300px) and (max-width: 900px)  {
+    .media{
+   width: auto;
+   
+        
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1280px) { 
+    .media{
+        width: auto;
+    }
+ }

@@ -23,10 +23,10 @@
 img{
     width: 350px;
     transition: .6s   ;
-    -webkit-transition: .6s;
-    -moz-transition: .6s;
-    -ms-transition: .6s;
-    -o-transition: .6s;
+    -webkit-transition: .6s   ;
+    -moz-transition: .6s   ;
+    -ms-transition: .6s   ;
+    -o-transition: .6s   ;
 }
 
 .content{
