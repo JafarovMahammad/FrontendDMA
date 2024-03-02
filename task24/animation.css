@@ -1,0 +1,133 @@
+@keyframes boxanim1 {
+0%{
+    
+        grid-column: 2 / 2;
+    
+}
+  
+
+to{
+    
+        grid-column: 1 / 1;
+    
+}
+}
+
+
+@keyframes boxanim2 {
+
+    from{
+        grid-row: 3;
+        grid-column: 2;
+    }
+
+    to{
+     grid-row: 1;
+     grid-column: 2;
+    }
+    
+}
+
+
+
+@keyframes boxanim3 {
+
+    from{
+        grid-row: 2;
+        grid-column: 3;
+    }
+
+    to{
+     grid-row: 1;
+     grid-column: 3;
+    }
+    
+}
+
+
+@keyframes boxanim4 {
+
+    from{
+        grid-row: 3;
+        grid-column: 1;
+    }
+
+    to{
+     grid-row: 2;
+     grid-column: 1;
+    }
+    
+}
+
+
+@keyframes boxanim5 {
+
+    from{
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    to{
+     grid-row: 2;
+     grid-column: 2;
+    }
+    
+}
+
+@keyframes boxanim6 {
+
+    from{
+        grid-row: 1;
+        grid-column: 3;
+    }
+
+    to{
+     grid-row: 2;
+     grid-column: 3;
+    }
+    
+}
+
+@keyframes boxanim7 {
+
+    from{
+        grid-row: 2;
+        grid-column: 1;
+    }
+
+    to{
+     grid-row: 3;
+     grid-column: 1;
+    }
+    
+}
+
+@keyframes boxanim8 {
+
+    from{
+        grid-row: 3;
+        grid-column: 3;
+    }
+
+    to{
+     grid-row: 3;
+     grid-column: 2;
+    }
+    
+}
+
+@keyframes boxanim9 {
+
+    from{
+        grid-row: 2;
+        grid-column: 2;
+    }
+
+    to{
+     grid-row: 3;
+     grid-column: 3;
+    }
+    
+}
+
+
