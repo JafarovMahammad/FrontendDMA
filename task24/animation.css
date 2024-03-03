@@ -1,5 +1,5 @@
 @keyframes boxanim1 {
-0%{
+from{
     
         grid-column: 2 / 2;
     
