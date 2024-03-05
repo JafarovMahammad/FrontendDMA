@@ -11,7 +11,7 @@ body {
 }
 
 .main-section {
-    background-image: url(https://www.time4nutrition.co.uk/wp-content/uploads/2023/02/shutterstock_2191383829.jpg);
+    background-image: url('https://starpowersuplements.com/wp-content/uploads/2023/01/w1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -23,7 +23,7 @@ body {
     display: flex;
     width: 120px;
     height: 100%;
-    background-color: rgba(8, 8, 107, 0.521);
+
     gap: 30px;
     flex-direction: column;
     align-items: center;
@@ -53,7 +53,7 @@ body {
     justify-content: center;
 }
 
-a:hover {
+.main-a:hover {
     background-color: rgb(21, 230, 219);
     color: rgb(53, 3, 100);
     transition: .5s;
@@ -87,7 +87,7 @@ ul {
 
 .product-menu:hover .list-a {
     display: flex;
-    width: 180px;
+    width: 150px;
     text-decoration: none;
     font-size: 20px;
     font-weight: bolder;
@@ -118,11 +118,12 @@ ul {
     color: white;
     justify-content: center;
     transform: translateY(400px);
+
 }
 
 .page-2 {
 
-    background-image: url('https://starpowersuplements.com/wp-content/uploads/2023/01/w1.jpg');
+    background-image: url('');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -132,31 +133,78 @@ ul {
 
 .page2-header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     text-align: center;
-    align-items: center;
+    padding-top: 50px;
     font-family: "Charmonman", cursive;
     font-size: 30px;
-    color: white;
+    color: rgba(255, 255, 255, 0);
     width: 100%;
     height: 100%;
-    line-height: 25px;
+    line-height: 85px;
+
+
+}
+
+.icons-a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    position: relative;
+
+}
+
+h1::before {
+    content: attr(data-text);
+    position: absolute;
+    width: 844px;
+    overflow: hidden;
+    white-space: nowrap;
+    color: gold;
+    border-right: 3px solid gold;
+    animation: textanim 8s linear infinite;
+    filter: drop-shadow(0 0 20px gold);
+    left: 50px;
+}
+
+.page-3 {
+    position: relative;
+    height: 100%;
+}
+
+.page-3 {
+   
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+ 
+    margin: 0;
+    padding: 0;
     
 }
 
-h1{
-    position: relative;
-
+.swiper {
+    width: 300px;
+    height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    margin-left: 200px;
+    margin-top: 150px;
     
- 
- }
- 
- h1::before{
-     color: goldenrod;
-     content: attr(data-text);
-     position: absolute;
-     overflow: hidden;
-     white-space: nowrap;
-     border-right: 2px solid white;
-     animation: textanim 8s linear infinite;
- }
+    
+
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    
+}
+
+.swiper-slide img {
+    width: 70%;
+    animation: swipeanim 4s linear infinite;
+}

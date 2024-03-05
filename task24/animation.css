@@ -6,10 +6,15 @@ from{
 }
   
 
-to{
+50%{
     
-        grid-column: 1 / 1;
+        grid-column: 1.5 / 1.5;
     
+}
+
+
+100%{
+    grid-column: 1 / 1;
 }
 }
 
