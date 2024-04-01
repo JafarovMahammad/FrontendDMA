@@ -1,0 +1,131 @@
+body{
+  padding-bottom: 3000px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.first-section {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://preview.colorlib.com/theme/knuford/images/bg_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .first-section .navbar {
+    width: 100%;
+    height: 70px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #1f6dc7;
+    position: fixed; }
+  .first-section .menu-items {
+    width: 600px;
+    display: flex;
+    justify-content: space-between; }
+  .first-section a {
+    color: #dddada;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative; }
+    .first-section a span {
+      border-top: 10px solid #1f6dc7;
+      border-right: 10px solid transparent;
+      border-left: 10px solid transparent;
+      position: absolute;
+      top: 45px;
+      left: 15px; }
+    .first-section a:active {
+      color: white; }
+  .first-section .head,
+  .first-section .home {
+    color: white; }
+  .first-section .head {
+    font-weight: bolder;
+    font-size: 21px; }
+  .first-section .ford {
+    width: 200px; }
+  .first-section .text {
+    justify-content: center;
+    padding-top: 150px;
+    padding-left: 150px; }
+    .first-section .text p {
+      width: 70px;
+      height: 25px;
+      color: #1f6dc7;
+      background-color: white;
+      text-align: center;
+      border-radius: 5px;
+      font-size: 15px;
+      padding: 4px; }
+      .first-section .text p span {
+        border-top: 5px solid white;
+        border-right: 5px solid transparent;
+        border-left: 5px solid transparent;
+        position: absolute;
+        top: 175px;
+        left: 182px; }
+    .first-section .text h1 {
+      color: white;
+      font-size: 40px; }
+    .first-section .text .animated-text {
+      font-size: 31px;
+      font-weight: 600;
+      min-width: 250px; }
+    .first-section .text .animated-text span {
+      position: relative; }
+    .first-section .text .animated-text span::before {
+      content: "";
+      color: #ffffff;
+      animation: words 20s infinite; }
+    .first-section .text .animated-text span::after {
+      content: "";
+      position: absolute;
+      width: calc(100% + 8px);
+      height: 100%;
+      background-color: #5fa1ff;
+      border-left: 2px solid #ffffff;
+      right: -8px;
+      animation: cursor 0.8s ease-in infinite, typing 20s steps(16) infinite; }
+@keyframes cursor {
+  to {
+    border-left: 2px solid #ff7f5000; } }
+@keyframes words {
+  0%,
+            20% {
+    content: "A WEB DESIGNER._"; }
+  21%,
+            40% {
+    content: "I'M A DEVELOPER._"; }
+  41%,
+            60% {
+    content: "I LOVE DESIGN._"; }
+  61%,
+            78% {
+    content: "I LOVE TO DEVELOP._"; } }
+@keyframes typing {
+  10%,
+            15%,
+            30%,
+            35%,
+            50%,
+            55%,
+            70%,
+            75%,
+            90%,
+            95% {
+    width: 0; }
+  5%,
+            20%,
+            25%,
+            40%,
+            45%,
+            60%,
+            65%,
+            80%,
+            85% {
+    width: calc(100% + 8px); } }
+
+/*# sourceMappingURL=style.css.map */

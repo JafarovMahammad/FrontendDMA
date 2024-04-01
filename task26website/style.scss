@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$btn-color: rgb(221, 218, 218);
+$font: 18px;
+
+.first-section {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://preview.colorlib.com/theme/knuford/images/bg_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .navbar {
+        width: 100%;
+        height: 70px;
+        padding: 25px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        background-color: rgb(31, 109, 199);
+        position: fixed;
+
+
+    }
+
+    .menu-items {
+        width: 600px;
+        display: flex;
+        justify-content: space-between;
+
+
+
+    }
+
+    a {
+        color: $btn-color;
+        text-decoration: none;
+        font-size: $font;
+        position: relative;
+
+        span {
+            border-top: 10px solid rgb(31, 109, 199);
+            border-right: 10px solid transparent;
+            border-left: 10px solid transparent;
+            position: absolute;
+            top: 45px;
+            left: 15px;
+        }
+
+        &:active {
+            color: white;
+        }
+    }
+
+    .head,
+    .home {
+        color: white;
+    }
+
+    .head {
+        font-weight: bolder;
+        font-size: 21px;
+    }
+
+    .ford {
+        width: 200px;
+    }
+
+    .text {
+        justify-content: center;
+        padding-top: 150px;
+        padding-left: 150px;
+
+        p {
+            width: 70px;
+            height: 25px;
+            color: rgb(31, 109, 199);
+            background-color: white;
+            text-align: center;
+            border-radius: 5px;
+            font-size: 15px;
+            padding: 4px;
+
+            span {
+                border-top: 5px solid rgb(255, 255, 255);
+                border-right: 5px solid transparent;
+                border-left: 5px solid transparent;
+                position: absolute;
+                top: 175px;
+                left: 182px;
+            }
+        }
+
+
+        h1 {
+            color: white;
+            font-size: 40px;
+        }
+
+        .animated-text {
+            font-size: 31px;
+            font-weight: 600;
+            min-width: 250px;
+        }
+
+        .animated-text span {
+            position: relative;
+        }
+
+        .animated-text span::before {
+            content: "";
+            color: #ffffff;
+            animation: words 20s infinite;
+
+        }
+
+        .animated-text span::after {
+            content: "";
+            position: absolute;
+            width: calc(100% + 8px);
+            height: 100%;
+            background-color: #5fa2ff;
+            border-left: 2px solid #ffffff;
+            right: -8px;
+            animation: cursor .8s ease-in infinite, typing 20s steps(16) infinite;
+            animation-delay: 3s;
+        }
+
+        @keyframes cursor {
+            to {
+                border-left: 2px solid #ff7f5000;
+
+            }
+        }
+
+        @keyframes words {
+
+            0%,
+            20% {
+                content: "A WEB DESIGNER._";
+
+            }
+
+            21%,
+            40% {
+                content: "I'M A DEVELOPER._";
+            }
+
+            41%,
+            60% {
+                content: "I LOVE DESIGN._";
+            }
+
+            61%,
+            78% {
+                content: "I LOVE TO DEVELOP._";
+            }
+
+        }
+
+        @keyframes typing {
+
+            10%,
+            15%,
+            30%,
+            35%,
+            50%,
+            55%,
+            70%,
+            75%,
+            90%,
+            95% {
+                width: 0;
+            }
+
+            5%,
+            20%,
+            25%,
+            40%,
+            45%,
+            60%,
+            65%,
+            80%,
+            85% {
+                width: calc(100% + 8px);
+            }
+        }
+    }
+
+}
