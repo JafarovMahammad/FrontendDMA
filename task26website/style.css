@@ -19,19 +19,19 @@ body{
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    background-color: #1f6dc7;
+    background-color: #1f6dc700;
     position: fixed; }
   .first-section .menu-items {
     width: 600px;
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;}
   .first-section a {
     color: #dddada;
     text-decoration: none;
     font-size: 18px;
-    position: relative; }
+    position: relative;}
     .first-section a span {
-      border-top: 10px solid #1f6dc7;
+      border-top: 10px solid #1f6dc700;
       border-right: 10px solid transparent;
       border-left: 10px solid transparent;
       position: absolute;
