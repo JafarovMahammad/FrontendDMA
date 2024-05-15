@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px; /* Adjust the size of the logo as needed */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.login a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+
+.login a.btn-member {
+  background-color: #fff;
+  color: #333;
+  margin-left: 10px;
+}

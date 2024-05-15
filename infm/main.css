@@ -1,0 +1,28 @@
+.input-group {
+  position: relative;
+  display: inline-block;
+}
+
+.form-control {
+  padding-right: 40px; /* Adjust padding to accommodate buttons */
+}
+
+.minus-button,
+.plus-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.minus-button {
+  left: 5px; /* Adjust button position */
+}
+
+.plus-button {
+  right: 5px; /* Adjust button position */
+}
+
